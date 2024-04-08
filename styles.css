@@ -1,2 +1,38 @@
+    header, nav, summary, section, aside, footer {
+        margin: 1rem;
+    }
 
-/* Your CSS Code here. */
+    header {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #ddd;
+        padding: 0.5rem;
+    }
+
+    nav a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    aside {
+        background-color: #eee;
+        padding: 0.5rem;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    @media (min-width: 600px) {
+        header, nav, summary, section, aside, footer {
+            margin: 2rem;
+		}
+	}
